@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=monacoCoin
+Comment=monacoCoin P2P Cryptocurrency
+Comment[fr]=monacoCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=monacoCoin, eşten eşe kriptografik sanal para birimi
+Exec=monacoCoin-qt %u
+Terminal=false
+Type=Application
+Icon=dash128
+MimeType=x-scheme-handler/monacoCoin;
+Categories=Office;Finance;

@@ -1,0 +1,3 @@
+debian/manpages/monacoCoind.1
+debian/manpages/monacoCoin.conf.5
+debian/manpages/monacoCoin-cli.1

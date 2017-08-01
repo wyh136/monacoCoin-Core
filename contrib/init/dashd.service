@@ -1,0 +1,22 @@
+[Unit]
+Description=monacoCoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=monacoCoinCore
+Group=monacoCoinCore
+
+Type=forking
+PIDFile=/var/lib/monacoCoind/monacoCoind.pid
+ExecStart=/usr/bin/monacoCoind -daemon -pid=/var/lib/monacoCoind/monacoCoind.pid \
+-conf=/etc/monacoCoinCore/monacoCoin.conf -datadir=/var/lib/monacoCoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
