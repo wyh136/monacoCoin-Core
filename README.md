@@ -1,4 +1,4 @@
-monacoCoin Core staging tree 0.1
+monacoCoin Core 0.1 (MCC)
 ===============================
 
 
