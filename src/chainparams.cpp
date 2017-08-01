@@ -237,9 +237,7 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
       
-		 vSeeds.push_back(CDNSSeedData("monacocoin.net", "testnet1.monacocoin.net")); 
-        vSeeds.push_back(CDNSSeedData("monacocoin.net", "testnet3.monacocoin.net")); 
-        vSeeds.push_back(CDNSSeedData("monacocoin.net", "testnet2.monacocoin.net")); 
+		 
 
         // Testnet monacoCoin addresses start with 'y'
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,139);
