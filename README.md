@@ -1,4 +1,4 @@
-monacoCoin Core 0.1 (MCC)
+monacoCoin Core V1 (0.12.1.5) (MCC)
 ===============================
 
 
