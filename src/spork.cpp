@@ -206,7 +206,6 @@ bool CSporkManager::SetPrivKey(std::string strPrivKey)
     CSporkMessage spork;
 
     spork.Sign(strPrivKey);
-
     if(spork.CheckSignature()){
         // Test signing successful, proceed
         LogPrintf("CSporkManager::SetPrivKey -- Successfully initialized as spork signer\n");

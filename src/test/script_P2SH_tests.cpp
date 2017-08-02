@@ -63,8 +63,9 @@ BOOST_AUTO_TEST_CASE(sign)
     CKey key[4];
     for (int i = 0; i < 4; i++)
     {
-        key[i].MakeNewKey(true);
+        key[i].MakeNewKey(false);
         keystore.AddKey(key[i]);
+		
     }
 
     // 8 Scripts: checking all combinations of

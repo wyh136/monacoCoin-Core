@@ -117,7 +117,7 @@ public:
         pchMessageStart[1] = 0x0c;
         pchMessageStart[2] = 0x6b;
         pchMessageStart[3] = 0xbd;
-        vAlertPubKey = ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f");
+        vAlertPubKey = ParseHex("04816f1702398e05b8fec8ebbacd0f47f6dde2dd41828adc59b5cd033d9a90e926a01461872cbf2b681fce97686c4f1210cf226ef292326323dfa90fbab324e86c");
         nDefaultPort = 24157;
         nMaxTipAge = 6 * 60 * 60; // ~144 blocks behind -> 2 x fork detection time, was 24 * 60 * 60 in bitcoin
         nPruneAfterHeight = 100000;
@@ -160,8 +160,8 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 60*60; // fulfilled requests expire in 1 hour
-        strSporkPubKey = "041fe11d1af4df92f205c1dcb97645783c125f803bc7ceadce8a1b8a723bf31b91463c24866b1a84b1899a09d03a3e6417dc697160585d81855368aa8fe035faf5";
-        strMasternodePaymentsPubKey = "04fc9d8b6193317081ade8db79d18a58f246f157e9231a89ea124dc38fda70dcafa276af6f1260f90af16aa01b263dcb75c6f4b189f8bc50e7194d8f31788d2397";
+        strSporkPubKey = "041ab49eb67228b2c44ee5705baf9c9f01955d18cea31b099eb32d98d82f50d2fa463ace307763bdf20d0284d13234b548f951075269ce15853734c42bf1e00f6f";
+        strMasternodePaymentsPubKey = "042b4f6b2c177d8b02d32b12c82d38bb48e19f6e6d6244b6d3bffdd27db40b8a1dda5e659fac52722db4358596c241a96f97a0ba1822199fa07aa289a8d87855b5";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
@@ -224,7 +224,7 @@ public:
         pchMessageStart[1] = 0xe2;
         pchMessageStart[2] = 0xca;
         pchMessageStart[3] = 0xff;
-        vAlertPubKey = ParseHex("047e77bfd20e7cb68d760d131dfaccb6c026a535269e1e719e038700f81983e4a9f2c113aae5570094b0d93496e2cb2c76d7f252c44671d26dc9a1b17bd8f03b09");
+        vAlertPubKey = ParseHex("041e29ea2444c3e74357ac907d680388ea13a1dfde5d3cd0cb205db62a254645c45f9f2a50f672e942c6d5bec64b47433fc07a7063a020cc5fd74693d315131562");
         nDefaultPort = 34157;
         nMaxTipAge = 0x1e0ffff0; // allow mining on top of old blocks for testnet
         nPruneAfterHeight = 1000;
@@ -262,8 +262,8 @@ public:
 
         nPoolMaxTransactions = 3;
         nFulfilledRequestExpireTime = 5*60; // fulfilled requests expire in 5 minutes
-        strSporkPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
-        strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
+        strSporkPubKey = "046e8fc815dd041e06f0c8042dc367d4451ccc9e652deaab27d535d67937e8748424d5afb636d35b52d19ab495e7ffc67f2d9e2d9c2323a1d6c6b096640ee5c954";
+        strMasternodePaymentsPubKey = "04ce79c6a5e94643d95f45a4d73824e734e53c1d584c6bd82721b03b5604ce9c6cde0373fa5a05a27712bfe13e227aa75f3cec219d60c9cac209e81a21e0c95c91";
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
